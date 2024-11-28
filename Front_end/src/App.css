@@ -1,0 +1,17 @@
+.navbar-nav .nav-item a {
+  color: black;
+  font-weight: 500;
+}
+
+.logo_image {
+  width: 150px !important;
+}
+
+.navbar,
+.dropdown-menu {
+  background-color: white !important;;
+  color: black !important;
+}
+.navbar-nav .nav-item a:hover {
+  color: #000 !important;
+}

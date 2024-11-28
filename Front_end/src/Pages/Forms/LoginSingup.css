@@ -1,0 +1,141 @@
+.container1{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #fff;
+  padding-bottom: 30px;
+  width: 600px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+.header1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text1{
+  color: #3c009d;
+  font-size: 38px;
+  font-weight: 700;
+  
+}
+
+.underline1{
+  width: 61px;
+  height: 6px;
+  background: #3c009d;
+  border-radius: 9px;
+}
+.inputs1{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input1{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 60px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input1 img{
+  margin: 0 30px;
+}
+
+.input1 input{
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #100f0f;
+  font-size: 19px;
+}
+
+.forgot-password1{
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #797979;
+  font-size: 18px;
+}
+
+.forgot-password1 span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+
+.submit-container1{
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gray{
+  background-color: #eaeaea;
+  color: #676767;
+}
+
+/*  */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+  .container1{
+    width: 450px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  .text1{
+    color: #3c009d;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .input1{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+  }
+  .submit1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .gray{
+    background-color: #eaeaea;
+    color: #676767;
+  }
+}
